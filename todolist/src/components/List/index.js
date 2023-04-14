@@ -1,11 +1,13 @@
 import "./index.css";
+import ListItem from "../List-Item"
 
 function List(props) {
   return (
-    <ul>
-      {props.listState.map((listitem, index) => (
-        <li key={index}>{listitem}</li>
-      ))}
+    <ul listitem = {props.listState}>
+{props.listState.map((listitem, index) => (
+  <ListItem key={index} listitem={listitem} />
+))}
+
     </ul>
   );
 }
