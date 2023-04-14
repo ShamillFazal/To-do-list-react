@@ -1,11 +1,22 @@
 import './index.css';
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 
 function Input () {
-const [text, setText] = useState("")
+const [text, setText] = useState("");
+const inputRef = useRef(null);
 
-    return <input type = "text"/>
+function enterText(event){
+    setText(inputRef.current.value);
+}
+
+
+    return (
+    <div>
+        <input type = "text" ref={inputRef}/>
+        <button onClick = {enterText}>Click Me</button>
+    </div>
+    )
 
 }
 
-export default Input 
+export default Input; 

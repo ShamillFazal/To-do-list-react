@@ -1,9 +1,10 @@
 import "./index.css";
+import Input from "../Input/index.js";
 
 function List() {
   return (
     <ul>
-      <li>Hi</li>
+      <li>{Input.text}</li>
     </ul>
   );
 }
