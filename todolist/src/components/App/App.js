@@ -1,23 +1,20 @@
-import React from 'react';
-import './App.css';
+import "./App.css";
+import { useState } from "react";
+import Input from "../Input";
+import List from "../List";
 
 function App() {
+  const [listState, setListState] = useState([]);
+
   return (
     <div className="App">
       <header className="App-header">
-        
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>Here is our app.</p>
       </header>
+      <main>
+        <Input />
+        <List />
+      </main>
     </div>
   );
 }
