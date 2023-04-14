@@ -7,7 +7,7 @@ function ListItem (props){
 
     return (<li>
     {props.listitem}
-    <button onClick={handleDelete}>Delete</button>
+    <button className="deletebutton" onClick={handleDelete}>Delete</button>
     </li>
     );
 }

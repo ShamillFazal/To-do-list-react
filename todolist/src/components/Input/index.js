@@ -11,7 +11,7 @@ function Input (props) {
     return (
     <div>
         <input type = "text" ref={inputRef}/>
-        <button onClick = {enterText}>Click Me</button>
+        <button className='addButton' onClick = {enterText}>Click Me</button>
     </div>
     )
 

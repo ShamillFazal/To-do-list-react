@@ -16,12 +16,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Here is our app.</p>
+        <p>What I need to do...</p>
       </header>
+<div className="Main">
       <main>
         <Input onEnterText={handleText} />
         <List listState={listState} deleteItem={deleteItem} setListState={setListState}/>
       </main>
+    </div>
     </div>
   );
 }
