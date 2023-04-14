@@ -1,7 +1,16 @@
-function ListItem ({listitem}){
+import "./index.css";
 
-    return <li>{listitem}<button>Delete</button></li>
+function ListItem (props){
+  function handleDelete(){
+    props.deleteItem(props.listitem);
+  }
 
+    return (<li>
+    {props.listitem}
+    <button onClick={handleDelete}>Delete</button>
+    </li>
+    );
 }
 
-export default ListItem
+
+export default ListItem;

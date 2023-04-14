@@ -6,6 +6,7 @@ function Input (props) {
     function enterText(event) {
         const text = inputRef.current.value;
         props.onEnterText(text);
+        inputRef.current.value="";
     }
     return (
     <div>
