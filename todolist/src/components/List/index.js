@@ -1,10 +1,11 @@
 import "./index.css";
-import Input from "../Input/index.js";
 
-function List() {
+function List(props) {
   return (
     <ul>
-      <li>{Input.text}</li>
+      {props.listState.map((listitem, index) => (
+        <li key={index}>{listitem}</li>
+      ))}
     </ul>
   );
 }

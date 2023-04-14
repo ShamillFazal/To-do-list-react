@@ -5,16 +5,9 @@ import List from "../List";
 
 function App() {
   const [listState, setListState] = useState([]);
-  const [text, setText] = useState("");
-  const inputRef = useRef(null);
 
-  function addToList(text){
+  function handleText(text){
     setListState([...listState, text]);
-  }
-  
-  function handleText(event){
-      setText(inputRef.current.value);
-      console.log(text);
   }
   
 
@@ -24,8 +17,8 @@ function App() {
         <p>Here is our app.</p>
       </header>
       <main>
-        <Input addToList={addToList} />
-        <List />
+        <Input onEnterText={handleText} />
+        <List listState={listState} />
       </main>
     </div>
   );

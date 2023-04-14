@@ -1,13 +1,16 @@
 import './index.css';
-import { useState, useRef } from 'react';
-import addToList from '../App/App';
+import { useRef } from 'react';
 
-function Input () {
-    
+function Input (props) {
+    const inputRef = useRef(null);
+    function enterText(event) {
+        const text = inputRef.current.value;
+        props.onEnterText(text);
+    }
     return (
     <div>
-        <input onChange= {enterText} type = "text" ref={inputRef}/>
-        <button onClick = {addToList}>Click Me</button>
+        <input type = "text" ref={inputRef}/>
+        <button onClick = {enterText}>Click Me</button>
     </div>
     )
 
