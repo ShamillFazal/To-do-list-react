@@ -4,6 +4,8 @@ Here is the figma design
 
 ![Screenshot 2023-06-15 175528](https://github.com/ShamillFazal/To-do-list-react/assets/94766229/4373e073-db7f-4c84-a903-02063b528e52)
 
-This is the finished app
+This is a demo of the finished app
 
-![Screenshot 2023-06-15 180338](https://github.com/ShamillFazal/To-do-list-react/assets/94766229/bd7fb2f1-8354-4f77-9550-fbe67dbd75fc)
+https://github.com/ShamillFazal/To-do-list-react/assets/94766229/391a1ff3-e31b-4a46-9896-926d26c3299b
+
+
