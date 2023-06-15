@@ -2,9 +2,8 @@ A to-do list app created in react with my fellow team mates David & Hilda as par
 
 Here is the figma design
 
-![Screenshot 2023-06-15 175528](https://github.com/ShamillFazal/To-do-list-react/assets/94766229/e36ef9c4-1ba0-403f-881d-20b71e445806)
+![Screenshot 2023-06-15 175528](https://github.com/ShamillFazal/To-do-list-react/assets/94766229/4373e073-db7f-4c84-a903-02063b528e52)
 
 This is the finished app
 
-![image](https://github.com/ShamillFazal/To-do-list-react/assets/94766229/f7bbf3f1-0b33-4e07-9bcb-89c11a808f35)
-
+![Screenshot 2023-06-15 180338](https://github.com/ShamillFazal/To-do-list-react/assets/94766229/bd7fb2f1-8354-4f77-9550-fbe67dbd75fc)
