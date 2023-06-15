@@ -1,4 +1,4 @@
-A to-do list app created in react with my fellow team mates David & Hilda! We tried to style it like a school blackboard 😄
+A to-do list app created in react with my fellow team mates David & Hilda as part of a 1 day hackathon! We managed to get all of the functionality working and then we had a quick hour at the end of the day to style it. Yes, We tried to style it like a school blackboard 😄
 
 Here is the figma design
 
